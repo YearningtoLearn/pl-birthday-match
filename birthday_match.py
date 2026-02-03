@@ -101,7 +101,7 @@ def get_data():
                 m_date = m['kickoff_time']
 
                 # EXACT BIRTHDAY MATCH
-                if m_date.month == p_dob.month and m_date.day == p_dob.day and m_date >= today:
+                if m_date.month == p_dob.month and m_date.day == p_dob.day:
                     venue = "vs" if p_team == m['Home'] else "@"
                     opponent = m['Away'] if p_team == m['Home'] else m['Home']
                     status = "✅ PLAYED" if m_date < today else "🔜 UPCOMING"

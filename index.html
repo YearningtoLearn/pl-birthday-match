@@ -9,27 +9,27 @@
         h1 { text-align: center; color: #38003c; }
         .summary { text-align: center; margin-bottom: 2rem; color: #555; }
         .card { background: white; padding: 1.2rem; margin-bottom: 1rem; border-radius: 8px; display: flex; align-items: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+
+        /* Different borders for Past vs Future */
         .played { border-left: 5px solid #aaa; opacity: 0.8; }
         .upcoming { border-left: 5px solid #00ff85; }
+
         .date-col { width: 80px; text-align: center; margin-right: 1rem; }
         .day { font-size: 1.4rem; font-weight: 800; color: #333; }
         .month { font-size: 0.8rem; text-transform: uppercase; font-weight: 700; color: #777; }
+
         .info-col { flex-grow: 1; }
         .player { font-size: 1.2rem; font-weight: 700; }
         .details { color: #555; }
+
         .status-tag { font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; vertical-align: middle; margin-left: 10px; }
         .played .status-tag { background: #eee; color: #555; }
         .upcoming .status-tag { background: #00ff85; color: #38003c; font-weight: bold; }
-
-        .debug-section { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #ddd; }
-        .debug-title { font-weight: bold; color: #888; margin-bottom: 1rem; }
-        .missing-list { font-size: 0.8rem; color: #999; display: flex; flex-wrap: wrap; gap: 10px; }
-        .missing-item { background: #fff; padding: 4px 8px; border-radius: 4px; border: 1px solid #eee; }
     </style>
 </head>
 <body>
     <h1>📅 Full Season Birthday Matches</h1>
-    <div class="summary">Found 51 matches | Note: Excludes Cup Games (FA/Carabao)</div>
+    <div class="summary">Found 22 matches for the 2025-26 Season</div>
 
         <div class="card played">
             <div class="date-col">
@@ -59,8 +59,8 @@
                 <div class="month">Oct</div>
             </div>
             <div class="info-col">
-                <div class="player">Federico Chiesa <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 28 • <b>Liverpool</b> @ Brentford</div>
+                <div class="player">Dominik Szoboszlai <span class="status-tag">✅ PLAYED</span></div>
+                <div class="details">Turn 25 • <b>Liverpool</b> @ Brentford</div>
             </div>
         </div>
         
@@ -70,41 +70,8 @@
                 <div class="month">Oct</div>
             </div>
             <div class="info-col">
-                <div class="player">Dominik Szoboszlai <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 25 • <b>Liverpool</b> @ Brentford</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">26</div>
-                <div class="month">Oct</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Yasin Özcan <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 30 • <b>Aston Villa</b> vs Man City</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">26</div>
-                <div class="month">Oct</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Kyle Walker <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 81 • <b>Burnley</b> @ Wolves</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">1</div>
-                <div class="month">Nov</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Will Hughes <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 62 • <b>Crystal Palace</b> vs Brentford</div>
+                <div class="player">Federico Chiesa <span class="status-tag">✅ PLAYED</span></div>
+                <div class="details">Turn 28 • <b>Liverpool</b> @ Brentford</div>
             </div>
         </div>
         
@@ -121,56 +88,12 @@
         
         <div class="card played">
             <div class="date-col">
-                <div class="day">1</div>
-                <div class="month">Nov</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Sam Greenwood <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 40 • <b>Leeds</b> @ Brighton</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">22</div>
-                <div class="month">Nov</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Jacob Slater <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 61 • <b>Brighton</b> vs Brentford</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">22</div>
-                <div class="month">Nov</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Alex Scott <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 89 • <b>Bournemouth</b> vs West Ham</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
                 <div class="day">2</div>
                 <div class="month">Dec</div>
             </div>
             <div class="info-col">
                 <div class="player">Kalvin Phillips <span class="status-tag">✅ PLAYED</span></div>
                 <div class="details">Turn 30 • <b>Man City</b> @ Fulham</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">6</div>
-                <div class="month">Dec</div>
-            </div>
-            <div class="info-col">
-                <div class="player">James Hill <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 46 • <b>Bournemouth</b> vs Chelsea</div>
             </div>
         </div>
         
@@ -191,30 +114,8 @@
                 <div class="month">Dec</div>
             </div>
             <div class="info-col">
-                <div class="player">Jarrod Bowen <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 29 • <b>West Ham</b> @ Man City</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">20</div>
-                <div class="month">Dec</div>
-            </div>
-            <div class="info-col">
                 <div class="player">Fabian Schär <span class="status-tag">✅ PLAYED</span></div>
                 <div class="details">Turn 34 • <b>Newcastle</b> vs Chelsea</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">20</div>
-                <div class="month">Dec</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Ethan Ampadu <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 55 • <b>Leeds</b> vs Crystal Palace</div>
             </div>
         </div>
         
@@ -231,12 +132,12 @@
         
         <div class="card played">
             <div class="date-col">
-                <div class="day">27</div>
+                <div class="day">20</div>
                 <div class="month">Dec</div>
             </div>
             <div class="info-col">
-                <div class="player">Evan Ferguson <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 54 • <b>Brighton</b> @ Arsenal</div>
+                <div class="player">Jarrod Bowen <span class="status-tag">✅ PLAYED</span></div>
+                <div class="details">Turn 29 • <b>West Ham</b> @ Man City</div>
             </div>
         </div>
         
@@ -286,111 +187,12 @@
         
         <div class="card played">
             <div class="date-col">
-                <div class="day">1</div>
-                <div class="month">Jan</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Mathys Tel <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 164 • <b>Spurs</b> @ Brentford</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">1</div>
-                <div class="month">Jan</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Abdoullah Ba <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 156 • <b>Sunderland</b> vs Man City</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">1</div>
-                <div class="month">Jan</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Zach Marsh <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 145 • <b>Crystal Palace</b> vs Fulham</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">1</div>
-                <div class="month">Jan</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Christantus Uche <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 153 • <b>Crystal Palace</b> vs Fulham</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">1</div>
-                <div class="month">Jan</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Raúl Jiménez Rodríguez <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 135 • <b>Fulham</b> @ Crystal Palace</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">1</div>
-                <div class="month">Jan</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Alex Cairns <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 154 • <b>Leeds</b> @ Liverpool</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">1</div>
-                <div class="month">Jan</div>
-            </div>
-            <div class="info-col">
-                <div class="player">James McConnell <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 151 • <b>Liverpool</b> vs Leeds</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">3</div>
-                <div class="month">Jan</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Luke Rawlings <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 130 • <b>Wolves</b> vs West Ham</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
                 <div class="day">3</div>
                 <div class="month">Jan</div>
             </div>
             <div class="info-col">
                 <div class="player">Lewis Dobbin <span class="status-tag">✅ PLAYED</span></div>
                 <div class="details">Turn 23 • <b>Aston Villa</b> vs Nott'm Forest</div>
-            </div>
-        </div>
-        
-        <div class="card played">
-            <div class="date-col">
-                <div class="day">7</div>
-                <div class="month">Jan</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Antoine Semenyo <span class="status-tag">✅ PLAYED</span></div>
-                <div class="details">Turn 26 • <b>Man City</b> vs Brighton</div>
             </div>
         </div>
         
@@ -407,89 +209,12 @@
         
         <div class="card upcoming">
             <div class="date-col">
-                <div class="day">10</div>
-                <div class="month">Feb</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Harrison Armstrong <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 29 • <b>Everton</b> vs Bournemouth</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
-                <div class="day">21</div>
-                <div class="month">Feb</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Michael Kayode <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 44 • <b>Brentford</b> vs Brighton</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
                 <div class="day">23</div>
                 <div class="month">Feb</div>
             </div>
             <div class="info-col">
                 <div class="player">Carlos Henrique Casimiro <span class="status-tag">🔜 UPCOMING</span></div>
                 <div class="details">Turn 34 • <b>Man Utd</b> @ Everton</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
-                <div class="day">4</div>
-                <div class="month">Mar</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Emiliano Martínez Romero <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 49 • <b>Aston Villa</b> vs Chelsea</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
-                <div class="day">4</div>
-                <div class="month">Mar</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Rúben dos Santos Gato Alves Dias <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 49 • <b>Man City</b> vs Nott'm Forest</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
-                <div class="day">20</div>
-                <div class="month">Mar</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Julián Araujo Zúñiga <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 39 • <b>Bournemouth</b> vs Man Utd</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
-                <div class="day">20</div>
-                <div class="month">Mar</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Owen Bevan <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 89 • <b>Bournemouth</b> vs Man Utd</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
-                <div class="day">20</div>
-                <div class="month">Mar</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Norberto Murara Neto <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 34 • <b>Bournemouth</b> vs Man Utd</div>
             </div>
         </div>
         
@@ -517,67 +242,12 @@
         
         <div class="card upcoming">
             <div class="date-col">
-                <div class="day">21</div>
-                <div class="month">Mar</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Sean Longstaff <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 26 • <b>Leeds</b> vs Brentford</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
                 <div class="day">22</div>
                 <div class="month">Mar</div>
             </div>
             <div class="info-col">
                 <div class="player">Isaac Hayden <span class="status-tag">🔜 UPCOMING</span></div>
                 <div class="details">Turn 31 • <b>Newcastle</b> vs Sunderland</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
-                <div class="day">11</div>
-                <div class="month">Apr</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Manuel Ugarte Ribeiro <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 25 • <b>Man Utd</b> vs Leeds</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
-                <div class="day">11</div>
-                <div class="month">Apr</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Igor Thiago Nascimento Rodrigues <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 35 • <b>Brentford</b> vs Everton</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
-                <div class="day">18</div>
-                <div class="month">Apr</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Lukasz Fabianski <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 41 • <b>West Ham</b> @ Crystal Palace</div>
-            </div>
-        </div>
-        
-        <div class="card upcoming">
-            <div class="date-col">
-                <div class="day">9</div>
-                <div class="month">May</div>
-            </div>
-            <div class="info-col">
-                <div class="player">Dan Burn <span class="status-tag">🔜 UPCOMING</span></div>
-                <div class="details">Turn 34 • <b>Newcastle</b> @ Nott'm Forest</div>
             </div>
         </div>
         
@@ -591,4 +261,15 @@
                 <div class="details">Turn 28 • <b>Aston Villa</b> @ Burnley</div>
             </div>
         </div>
-        <div class="debug-section"><div class="debug-title">⚠️ Debug: Active Players Not Matched (Check Spelling/Wikidata)</div><div class="missing-list"><span class='missing-item'>Tommy Setford (Arsenal)</span><span class='missing-item'>Jakub Kiwior (Arsenal)</span><span class='missing-item'>Myles Lewis-Skelly (Arsenal)</span><span class='missing-item'>Noni Madueke (Arsenal)</span><span class='missing-item'>Christian Nørgaard (Arsenal)</span><span class='missing-item'>Ismeal Kabia (Arsenal)</span><span class='missing-item'>Albert Sambi Lokonga (Arsenal)</span><span class='missing-item'>Gabriel Fernando de Jesus (Arsenal)</span><span class='missing-item'>Andre Harriman-Annous (Arsenal)</span><span class='missing-item'>Marli Salmon (Arsenal)</span><span class='missing-item'>Marco Bizot (Aston Villa)</span><span class='missing-item'>Filip Marschall (Aston Villa)</span><span class='missing-item'>Ian Maatsen (Aston Villa)</span><span class='missing-item'>Andrés García (Aston Villa)</span><span class='missing-item'>Álex Moreno Lopera (Aston Villa)</span><span class='missing-item'>Lino da Cruz Sousa (Aston Villa)</span><span class='missing-item'>Youri Tielemans (Aston Villa)</span><span class='missing-item'>Emiliano Buendía Stati (Aston Villa)</span><span class='missing-item'>Samuel Iling-Junior (Aston Villa)</span><span class='missing-item'>Donyell Malen (Aston Villa)</span><span class='missing-item'>Ross Barkley (Aston Villa)</span><span class='missing-item'>Enzo Barrenechea (Aston Villa)</span><span class='missing-item'>Amadou Onana (Aston Villa)</span><span class='missing-item'>Ben Broggio (Aston Villa)</span><span class='missing-item'>Leander Dendoncker (Aston Villa)</span><span class='missing-item'>Jamaldeen Jimoh-Aloba (Aston Villa)</span><span class='missing-item'>Bradley Burrowes (Aston Villa)</span><span class='missing-item'>Victor Lindelöf (Aston Villa)</span><span class='missing-item'>George Hemmings (Aston Villa)</span><span class='missing-item'>Ronnie Hollingshead (Aston Villa)</span><span class='missing-item'>Leon Routh (Aston Villa)</span><span class='missing-item'>Alysson Edward Franco da Rocha dos Santos (Aston Villa)</span><span class='missing-item'>Václav Hladký (Burnley)</span><span class='missing-item'>Hannes Delcroix (Burnley)</span><span class='missing-item'>Owen Dodgson (Burnley)</span><span class='missing-item'>Hjalmar Ekdal (Burnley)</span><span class='missing-item'>Lucas Pires Silva (Burnley)</span><span class='missing-item'>Shurandy Sambo (Burnley)</span><span class='missing-item'>Jacob Bruun Larsen (Burnley)</span><span class='missing-item'>Darko Churlinov (Burnley)</span><span class='missing-item'>Luca Koleosho (Burnley)</span><span class='missing-item'>Loum Tchaouna (Burnley)</span><span class='missing-item'>Aaron Ramsey (Burnley)</span><span class='missing-item'>Oluwaseun Adewumi (Burnley)</span><span class='missing-item'>Jaydon Banel (Burnley)</span><span class='missing-item'>Mike Trésor Ndayishimiye (Burnley)</span><span class='missing-item'>Zian Flemming (Burnley)</span><span class='missing-item'>Zeki Amdouni (Burnley)</span><span class='missing-item'>Martin Dúbravka (Burnley)</span><span class='missing-item'>Lesley Ugochukwu (Burnley)</span><span class='missing-item'>Armando Broja (Burnley)</span><span class='missing-item'>Florentino Ibrain Morris Luís (Burnley)</span><span class='missing-item'>Oliver Pimlott (Burnley)</span><span class='missing-item'>Alex Paulsen (Bournemouth)</span><span class='missing-item'>Illia Zabarnyi (Bournemouth)</span><span class='missing-item'>Marcos Senesi Barón (Bournemouth)</span><span class='missing-item'>Adrien Truffert (Bournemouth)</span><span class='missing-item'>Matai Akinmboni (Bournemouth)</span><span class='missing-item'>Chris Mepham (Bournemouth)</span><span class='missing-item'>Luis Sinisterra Lucumí (Bournemouth)</span><span class='missing-item'>Romain Faivre (Bournemouth)</span><span class='missing-item'>Hamed Traorè (Bournemouth)</span><span class='missing-item'>Zain Silcott-Duberry (Bournemouth)</span><span class='missing-item'>Francisco Evanilson de Lima Barbosa (Bournemouth)</span><span class='missing-item'>Daniel Adu-Adjei (Bournemouth)</span><span class='missing-item'>Junior Kroupi (Bournemouth)</span><span class='missing-item'>Ben Gannon-Doak (Bournemouth)</span><span class='missing-item'>Bafodé Diakité (Bournemouth)</span><span class='missing-item'>Remy Rees-Dottin (Bournemouth)</span><span class='missing-item'>Veljko Milosavljevic (Bournemouth)</span><span class='missing-item'>Alex Tóth (Bournemouth)</span><span class='missing-item'>Christos Mandas (Bournemouth)</span><span class='missing-item'>Dango Ouattara (Brentford)</span><span class='missing-item'>Ellery Balcombe (Brentford)</span><span class='missing-item'>Julian Eyestone (Brentford)</span><span class='missing-item'>Hákon Rafn Valdimarsson (Brentford)</span><span class='missing-item'>Kristoffer Ajer (Brentford)</span><span class='missing-item'>Ethan Pinnock (Brentford)</span><span class='missing-item'>Mads Roerslev Rasmussen (Brentford)</span><span class='missing-item'>Benjamin Fredrick (Brentford)</span><span class='missing-item'>Aaron Hickey (Brentford)</span><span class='missing-item'>Jayden Meghoma (Brentford)</span><span class='missing-item'>Kevin Schade (Brentford)</span><span class='missing-item'>Mikkel Damsgaard (Brentford)</span><span class='missing-item'>Antoni Milambo (Brentford)</span><span class='missing-item'>Yehor Yarmoliuk (Brentford)</span><span class='missing-item'>Myles Peart-Harris (Brentford)</span><span class='missing-item'>Ryan Trevitt (Brentford)</span><span class='missing-item'>Kaye Furo (Brentford)</span><span class='missing-item'>Luka Bentt (Brentford)</span><span class='missing-item'>Bart Verbruggen (Brighton)</span><span class='missing-item'>Carl Rushworth (Brighton)</span><span class='missing-item'>Kjell Scherpen (Brighton)</span><span class='missing-item'>Olivier Boscagli (Brighton)</span><span class='missing-item'>Diego Coppola (Brighton)</span><span class='missing-item'>Maxim De Cuyper (Brighton)</span><span class='missing-item'>Pervis Estupiñán Tenorio (Brighton)</span><span class='missing-item'>Ferdi Kadıoğlu (Brighton)</span><span class='missing-item'>Tariq Lamptey (Brighton)</span><span class='missing-item'>Jan Paul van Hecke (Brighton)</span><span class='missing-item'>Eiran Cashin (Brighton)</span><span class='missing-item'>Charlie Tasker (Brighton)</span><span class='missing-item'>Mitoma Kaoru (Brighton)</span><span class='missing-item'>Georginio Rutter (Brighton)</span><span class='missing-item'>Solly March (Brighton)</span><span class='missing-item'>Yankuba Minteh (Brighton)</span><span class='missing-item'>Julio Enciso Espínola (Brighton)</span><span class='missing-item'>Brajan Gruda (Brighton)</span><span class='missing-item'>Matt O'Riley (Brighton)</span><span class='missing-item'>Yasin Ayari (Brighton)</span><span class='missing-item'>Carlos Baleba (Brighton)</span><span class='missing-item'>Jeremy Sarmiento Morante (Brighton)</span><span class='missing-item'>Mats Wieffer (Brighton)</span><span class='missing-item'>Malick Yalcouyé (Brighton)</span><span class='missing-item'>Adrian Mazilu (Brighton)</span><span class='missing-item'>Danny Welbeck (Brighton)</span><span class='missing-item'>Stefanos Tzimas (Brighton)</span><span class='missing-item'>Charalampos Kostoulas (Brighton)</span><span class='missing-item'>Nehemiah Oriola (Brighton)</span><span class='missing-item'>Freddie Simmonds (Brighton)</span><span class='missing-item'>Mike Penders (Chelsea)</span><span class='missing-item'>Gabriel Słonina (Chelsea)</span><span class='missing-item'>Marc Cucurella Saseta (Chelsea)</span><span class='missing-item'>Levi Samuels Colwill (Chelsea)</span><span class='missing-item'>Benoît Badiashile Mukinayi (Chelsea)</span><span class='missing-item'>Mamadou Sarr (Chelsea)</span><span class='missing-item'>Tosin Adarabioyo (Chelsea)</span><span class='missing-item'>Aarón Anselmino (Chelsea)</span><span class='missing-item'>Jamie Bynoe-Gittens (Chelsea)</span><span class='missing-item'>Christopher Nkunku (Chelsea)</span><span class='missing-item'>Roméo Lavia (Chelsea)</span><span class='missing-item'>Mykhailo Mudryk (Chelsea)</span><span class='missing-item'>Andrey Nascimento dos Santos (Chelsea)</span><span class='missing-item'>Dário Luís Essugo (Chelsea)</span><span class='missing-item'>Liam Delap (Chelsea)</span><span class='missing-item'>Nicolas Jackson (Chelsea)</span><span class='missing-item'>Marc Guiu Paz (Chelsea)</span><span class='missing-item'>Alejandro Garnacho Ferreyra (Chelsea)</span><span class='missing-item'>Landon Emenalo (Chelsea)</span><span class='missing-item'>Teddy Sharman-Lowe (Chelsea)</span><span class='missing-item'>Maxence Lacroix (Crystal Palace)</span><span class='missing-item'>Nathaniel Clyne (Crystal Palace)</span><span class='missing-item'>Rob Holding (Crystal Palace)</span><span class='missing-item'>Caleb Kporha (Crystal Palace)</span><span class='missing-item'>Ismaïla Sarr (Crystal Palace)</span><span class='missing-item'>Cheick Doucouré (Crystal Palace)</span><span class='missing-item'>Daichi Kamada (Crystal Palace)</span><span class='missing-item'>Jefferson Lerma Solís (Crystal Palace)</span><span class='missing-item'>Asher Agbinone (Crystal Palace)</span><span class='missing-item'>Naouirou Ahamada (Crystal Palace)</span><span class='missing-item'>Justin Devenny (Crystal Palace)</span><span class='missing-item'>Malcolm Ebiowei (Crystal Palace)</span><span class='missing-item'>Jesurun Rak-Sakyi (Crystal Palace)</span><span class='missing-item'>Matheus França de Oliveira (Crystal Palace)</span><span class='missing-item'>David Ozoh (Crystal Palace)</span><span class='missing-item'>Franco Umeh-Chibueze (Crystal Palace)</span><span class='missing-item'>Jean-Philippe Mateta (Crystal Palace)</span><span class='missing-item'>Evann Guessand (Crystal Palace)</span><span class='missing-item'>Rio Cardines (Crystal Palace)</span><span class='missing-item'>Yéremy Pino Santos (Crystal Palace)</span><span class='missing-item'>Jaydee Canvot (Crystal Palace)</span><span class='missing-item'>Dean Benamar (Crystal Palace)</span><span class='missing-item'>Danny Imray (Crystal Palace)</span><span class='missing-item'>Iliman Ndiaye (Everton)</span><span class='missing-item'>Tim Iroegbunam (Everton)</span><span class='missing-item'>Jenson Metcalfe (Everton)</span><span class='missing-item'>Youssef Ramalho Chermiti (Everton)</span><span class='missing-item'>Adam Aznou (Everton)</span><span class='missing-item'>Tyler Onyango (Everton)</span><span class='missing-item'>Tyler Dibling (Everton)</span><span class='missing-item'>Merlin Röhl (Everton)</span><span class='missing-item'>Bernd Leno (Fulham)</span><span class='missing-item'>Steven Benda (Fulham)</span><span class='missing-item'>Timothy Castagne (Fulham)</span><span class='missing-item'>Kenny Tete (Fulham)</span><span class='missing-item'>Samuel Amissah (Fulham)</span><span class='missing-item'>Ryan Sessegnon (Fulham)</span><span class='missing-item'>Tom Cairney (Fulham)</span><span class='missing-item'>Martial Godo (Fulham)</span><span class='missing-item'>Benjamin Lecomte (Fulham)</span><span class='missing-item'>Samuel Chukwueze (Fulham)</span><span class='missing-item'>Seth Ridgeon (Fulham)</span><span class='missing-item'>Alfie McNally (Fulham)</span><span class='missing-item'>Illan Meslier (Leeds)</span><span class='missing-item'>Karl Darlow (Leeds)</span><span class='missing-item'>Jayden Bogle (Leeds)</span><span class='missing-item'>Pascal Struijk (Leeds)</span><span class='missing-item'>Sebastiaan Bornauw (Leeds)</span><span class='missing-item'>Gabriel Gudmundsson (Leeds)</span><span class='missing-item'>Isaac Schmidt (Leeds)</span><span class='missing-item'>Brenden Aaronson (Leeds)</span><span class='missing-item'>Wilfried Gnonto (Leeds)</span><span class='missing-item'>Ilia Gruev (Leeds)</span><span class='missing-item'>Largie Ramazani (Leeds)</span><span class='missing-item'>Tanaka Ao (Leeds)</span><span class='missing-item'>Charlie Crew (Leeds)</span><span class='missing-item'>Darko Gyabi (Leeds)</span><span class='missing-item'>Noah Okafor (Leeds)</span><span class='missing-item'>Konstantinos Tsimikas (Liverpool)</span><span class='missing-item'>Amara Nallo (Liverpool)</span><span class='missing-item'>Luis Díaz Marulanda (Liverpool)</span><span class='missing-item'>Darwin Núñez Ribeiro (Liverpool)</span><span class='missing-item'>Wellity Lucky (Liverpool)</span><span class='missing-item'>Ederson Santana de Moraes (Man City)</span><span class='missing-item'>Marcus Bettinelli (Man City)</span><span class='missing-item'>Rayan Aït-Nouri (Man City)</span><span class='missing-item'>Manuel Akanji (Man City)</span><span class='missing-item'>Vitor de Oliveira Nunes dos Reis (Man City)</span><span class='missing-item'>İlkay Gündoğan (Man City)</span><span class='missing-item'>Nico González Iglesias (Man City)</span><span class='missing-item'>Claudio Echeverri (Man City)</span><span class='missing-item'>Sverre Nypan (Man City)</span><span class='missing-item'>Divine Mukasa (Man City)</span><span class='missing-item'>Stephen Mfuni (Man City)</span><span class='missing-item'>Ryan McAidoo (Man City)</span><span class='missing-item'>André Onana (Man Utd)</span><span class='missing-item'>Noussair Mazraoui (Man Utd)</span><span class='missing-item'>Diego León Blanco (Man Utd)</span><span class='missing-item'>Patrick Dorgu (Man Utd)</span><span class='missing-item'>Leny Yoro (Man Utd)</span><span class='missing-item'>Tyler Fredricson (Man Utd)</span><span class='missing-item'>Bruno Borges Fernandes (Man Utd)</span><span class='missing-item'>Toby Collyer (Man Utd)</span><span class='missing-item'>Jack Fletcher (Man Utd)</span><span class='missing-item'>Jack Moorhouse (Man Utd)</span><span class='missing-item'>Rasmus Højlund (Man Utd)</span><span class='missing-item'>Senne Lammens (Man Utd)</span><span class='missing-item'>Bendito Mantato (Man Utd)</span><span class='missing-item'>Odysseas Vlachodimos (Newcastle)</span><span class='missing-item'>Alex Murphy (Newcastle)</span><span class='missing-item'>Miodrag Pivaš (Newcastle)</span><span class='missing-item'>Matt Targett (Newcastle)</span><span class='missing-item'>Antoñito Cordero Campillo (Newcastle)</span><span class='missing-item'>Garang Kuol (Newcastle)</span><span class='missing-item'>Seung-Soo Park (Newcastle)</span><span class='missing-item'>Leo Shahar (Newcastle)</span><span class='missing-item'>Sam Alabi (Newcastle)</span><span class='missing-item'>Carlos Miguel dos Santos Pereira (Nott'm Forest)</span><span class='missing-item'>Murillo Costa dos Santos (Nott'm Forest)</span><span class='missing-item'>David Mota Veiga Teixeira do Carmo (Nott'm Forest)</span><span class='missing-item'>Jair Paula da Cunha Filho (Nott'm Forest)</span><span class='missing-item'>Omar Richards (Nott'm Forest)</span><span class='missing-item'>Willy Boly (Nott'm Forest)</span><span class='missing-item'>Eric da Silva Moreira (Nott'm Forest)</span><span class='missing-item'>Marko Stamenić (Nott'm Forest)</span><span class='missing-item'>Dan Ndoye (Nott'm Forest)</span><span class='missing-item'>Nicolò Savona (Nott'm Forest)</span><span class='missing-item'>Lorenzo Lucca (Nott'm Forest)</span><span class='missing-item'>Blondy Nna Noukeu (Sunderland)</span><span class='missing-item'>Trai Hume (Sunderland)</span><span class='missing-item'>Aji Alese (Sunderland)</span><span class='missing-item'>Dennis Cirkin (Sunderland)</span><span class='missing-item'>Niall Huggins (Sunderland)</span><span class='missing-item'>Luke O'Nien (Sunderland)</span><span class='missing-item'>Timothée Pembélé (Sunderland)</span><span class='missing-item'>Reinildo Mandava (Sunderland)</span><span class='missing-item'>Jenson Seelt (Sunderland)</span><span class='missing-item'>Simon Adingra (Sunderland)</span><span class='missing-item'>Enzo Le Fée (Sunderland)</span><span class='missing-item'>Romaine Mundle (Sunderland)</span><span class='missing-item'>Noah Sadiki (Sunderland)</span><span class='missing-item'>Chemsdine Talbi (Sunderland)</span><span class='missing-item'>Pierre Ekwah Elimby (Sunderland)</span><span class='missing-item'>Jay Matete (Sunderland)</span><span class='missing-item'>Nectarios Triantis (Sunderland)</span><span class='missing-item'>Eliezer Mayenda Dossou (Sunderland)</span><span class='missing-item'>Luís Hemir Silva Semedo (Sunderland)</span><span class='missing-item'>Nazarii Rusyn (Sunderland)</span><span class='missing-item'>Granit Xhaka (Sunderland)</span><span class='missing-item'>Robin Roefs (Sunderland)</span><span class='missing-item'>Omar Alderete (Sunderland)</span><span class='missing-item'>Nordi Mukiele (Sunderland)</span><span class='missing-item'>Lutsharel Geertruida (Sunderland)</span><span class='missing-item'>Brian Brobbey (Sunderland)</span><span class='missing-item'>Tymur Tutierov (Sunderland)</span><span class='missing-item'>Guglielmo Vicario (Spurs)</span><span class='missing-item'>Antonín Kinský (Spurs)</span><span class='missing-item'>Pedro Porro Sauceda (Spurs)</span><span class='missing-item'>Kevin Danso (Spurs)</span><span class='missing-item'>Radu Drăgușin (Spurs)</span><span class='missing-item'>Destiny Udogie (Spurs)</span><span class='missing-item'>Micky van de Ven (Spurs)</span><span class='missing-item'>Takai Kōta (Spurs)</span><span class='missing-item'>Luka Vušković (Spurs)</span><span class='missing-item'>Mohammed Kudus (Spurs)</span><span class='missing-item'>Dejan Kulusevski (Spurs)</span><span class='missing-item'>Lucas Bergvall (Spurs)</span><span class='missing-item'>Yves Bissouma (Spurs)</span><span class='missing-item'>Wilson Odobert (Spurs)</span><span class='missing-item'>Pape Matar Sarr (Spurs)</span><span class='missing-item'>Yang Min-hyeok (Spurs)</span><span class='missing-item'>Callum Olusesi (Spurs)</span><span class='missing-item'>Dominic Solanke-Mitchell (Spurs)</span><span class='missing-item'>Richarlison de Andrade (Spurs)</span><span class='missing-item'>Will Lankshear (Spurs)</span><span class='missing-item'>Dane Scarlett (Spurs)</span><span class='missing-item'>Randal Kolo Muani (Spurs)</span><span class='missing-item'>James Rowswell (Spurs)</span><span class='missing-item'>Yusuf Akhamrich (Spurs)</span><span class='missing-item'>Lucá Williams-Barnett (Spurs)</span><span class='missing-item'>Rio Kyerematen (Spurs)</span><span class='missing-item'>Wes Foderingham (West Ham)</span><span class='missing-item'>Krisztián Hegyi (West Ham)</span><span class='missing-item'>Emerson Palmieri dos Santos (West Ham)</span><span class='missing-item'>Maximilian Kilman (West Ham)</span><span class='missing-item'>Nayef Aguerd (West Ham)</span><span class='missing-item'>Ollie Scarles (West Ham)</span><span class='missing-item'>Lucas Tolentino Coelho de Lima (West Ham)</span><span class='missing-item'>Crysencio Summerville (West Ham)</span><span class='missing-item'>Maxwel Cornet (West Ham)</span><span class='missing-item'>Luis Guilherme Lira dos Santos (West Ham)</span><span class='missing-item'>George Earthy (West Ham)</span><span class='missing-item'>Lewis Orford (West Ham)</span><span class='missing-item'>Kyle Walker-Peters (West Ham)</span><span class='missing-item'>Mads Hermansen (West Ham)</span><span class='missing-item'>Mateus Gonçalo Espanha Fernandes (West Ham)</span><span class='missing-item'>Soungoutou Magassa (West Ham)</span><span class='missing-item'>Airidas Golambeckis (West Ham)</span><span class='missing-item'>Mohamadou Kanté (West Ham)</span><span class='missing-item'>Emmanuel Agbadou (Wolves)</span><span class='missing-item'>Hugo Bueno López (Wolves)</span><span class='missing-item'>Santiago Ignacio Bueno (Wolves)</span><span class='missing-item'>Ki-Jana Hoever (Wolves)</span><span class='missing-item'>Pedro Cardoso de Lima (Wolves)</span><span class='missing-item'>Alfie Pond (Wolves)</span><span class='missing-item'>Hwang Hee-chan (Wolves)</span><span class='missing-item'>Jean-Ricner Bellegarde (Wolves)</span><span class='missing-item'>Fer López González (Wolves)</span><span class='missing-item'>Gonçalo Manuel Ganchinho Guedes (Wolves)</span><span class='missing-item'>Marshall Munetsi (Wolves)</span><span class='missing-item'>Boubacar Traoré (Wolves)</span><span class='missing-item'>Tawanda Chirewa (Wolves)</span><span class='missing-item'>Jørgen Strand Larsen (Wolves)</span><span class='missing-item'>Saša Kalajdžić (Wolves)</span><span class='missing-item'>Leon Chiwome (Wolves)</span><span class='missing-item'>Jhon Arias (Wolves)</span><span class='missing-item'>David Møller Wolfe (Wolves)</span><span class='missing-item'>Jackson Tchatchoua (Wolves)</span><span class='missing-item'>Ladislav Krejcí (Wolves)</span><span class='missing-item'>Tolu Arokodare (Wolves)</span><span class='missing-item'>Saheed Olagunju (Wolves)</span><span class='missing-item'>Temple Ojinnaka (Wolves)</span></div></div></body></html>
+        
+        <div class="card upcoming">
+            <div class="date-col">
+                <div class="day">9</div>
+                <div class="month">May</div>
+            </div>
+            <div class="info-col">
+                <div class="player">Dan Burn <span class="status-tag">🔜 UPCOMING</span></div>
+                <div class="details">Turn 34 • <b>Newcastle</b> @ Nott'm Forest</div>
+            </div>
+        </div>
+        </body></html>
